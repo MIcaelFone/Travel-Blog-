@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+  <head>
+    
+        <title>Things to do</title>
+
+        <link rel="stylesheet" href="css/things_to_do.css">
+
+        <%- include('../partials/links'); %>
+    
+  </head>
+
+  <body>
+   
+    <%- include('../partials/header') %>
+    <br>
+    <br>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+       
+      <div class="carousel-inner carousel-items">
+        <div class="carousel-item active " data-bs-interval="10000">
+          <img src="https://www.planetware.com/photos-large/DK/denmark-copenhagen-town-hall.jpg" class="d-block w-50" alt="...">
+        
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://www.planetware.com/photos-large/DK/denmark-copenhagen-national-museum.jpg" class="d-block w-50" alt="...">
+          
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.planetware.com/photos-large/DK/denmark-copenhagen-amalienborg.jpg" class="d-block w-50 " alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        
+      </button>
+    </div>
+    
+    <br>
+    <br>
+
+    <div class="title">
+      <h2 class="display-6">Places to visit in Copenhagen</h2>
+     </div>
+   
+  
+   <div class="cards">
+    
+      <div class="card" style="width: 18rem;">
+        <img src="https://www.visitcopenhagen.com/sites/visitcopenhagen.com/files/2020-03/0026-1200px.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Restaurants</h5>
+          <p class="card-text">Copenhagen's cuisine is a mix of French, German, Scandinavian influences, and some of the most famous food are as Smørrebrød, Krebinetter and Flæskesteg</p>
+          <a href="https://www.timeout.com/copenhagen/restaurants/best-restaurants-in-copenhagen" class="btn btn-primary">Click to see the best restaurants</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://www.planetware.com/photos-large/DK/denmark-copenhagen-christiansborg.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tourist Attractions</h5>
+          <p class="card-text">
+            Copenhagen is a beautiful and lively city that has many things to do for tourists. The most popular places are Tivoli Gardens, The Little Mermaid and Nyhavn.</p>
+          <a href="https://www.visitcopenhagen.com/" class="btn btn-primary">Click here to see others places</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max500/247213515.jpg?k=60c3200d7b0925cd1ccbeb751a5e91acead7500643b7169be9cf4718f9925b1d&o=" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hotels</h5>
+          <p class="card-text">Copenhagen is a great destination for travelers who want to enjoy the culture, history, and charm of the Danish capital.There are many hotels as Andersen Boutique Hotel and PINTXOS.</p>
+          <a href="https://www.tripadvisor.com/Hotels-g189541-Copenhagen_Zealand-Hotels.html" class="btn btn-primary">Click here to see the best hotels</a>
+        </div>
+      </div>
+      
+        <div class="card" style="width: 18rem;">
+          <img src="https://viatrolebus.com.br/wp-content/uploads/2014/10/copenhagen-bike-lane.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Transport</h5>
+              <p class="card-text">Copenhagen has an efficient public transport system that includes metro, trains, buses, and harbor buses. You can use the same ticket for all modes of transport.</p>
+              <a href="https://www.visitcopenhagen.com/copenhagen/planning/public-transport" class="btn btn-primary">Click to read about transport</a>
+          </div>
+        </div>
+
+   </div>
+  
+  <%- include("../partials/footer") %> 
+
+  </body>
+
+</html>
+
+ 

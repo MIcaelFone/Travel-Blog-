@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+    <head>
+    
+        <title>Create a post</title>
+    
+        <link rel="stylesheet" href="css/create_post.css">
+        
+        <%- include('../partials/links'); %>
+        
+        
+    </head>
+
+    <body>
+          
+        <%- include('../partials/header'); %>
+        <br>
+        <div class="form-body">
+
+            <div class="row">
+
+                <div class="form-holder">
+
+                    <div class="form-content">
+
+                        <div class="form-items">
+                                  <center> <h3>Criando um post</h3></center>
+
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Título</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="formFileMultiple" class="form-label">Arquivos de imagem</label>
+                                <input class="form-control" type="file" id="formFileMultiple" multiple>
+                            </div>
+
+                           <center> <button type="button" class="btn btn-primary btn-lg">Postar um conteúdo</button></center> 
+                        </div>  
+    
+                    </div>  
+
+                </div> 
+
+            </div>
+            
+        </div>           
+
+        <br>
+        <%- include("../partials/footer") %>
+
+    </body>
+
+</html>
